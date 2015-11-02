@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralReversiGui", "GeneralReversiGui\GeneralReversiGui.csproj", "{EA93F737-259A-405E-86BD-AFD53ECCDCF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedLabelLibrary", "ExtendedLabelLibrary\ExtendedLabelLibrary.csproj", "{EC4935AF-7A0E-45B9-95B4-79E65AD9CABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralReversi", "GeneralReversi\GeneralReversi.csproj", "{3D5B4BBF-E197-48BE-B700-493D502CFB74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA93F737-259A-405E-86BD-AFD53ECCDCF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA93F737-259A-405E-86BD-AFD53ECCDCF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA93F737-259A-405E-86BD-AFD53ECCDCF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA93F737-259A-405E-86BD-AFD53ECCDCF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC4935AF-7A0E-45B9-95B4-79E65AD9CABE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC4935AF-7A0E-45B9-95B4-79E65AD9CABE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC4935AF-7A0E-45B9-95B4-79E65AD9CABE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC4935AF-7A0E-45B9-95B4-79E65AD9CABE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D5B4BBF-E197-48BE-B700-493D502CFB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D5B4BBF-E197-48BE-B700-493D502CFB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D5B4BBF-E197-48BE-B700-493D502CFB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D5B4BBF-E197-48BE-B700-493D502CFB74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
