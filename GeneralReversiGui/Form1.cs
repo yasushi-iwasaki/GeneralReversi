@@ -1362,7 +1362,10 @@ namespace GeneralReversiGui
                         {
                             Form2 message = new Form2("Message", true, "Invalid Move: " + Board.PositionString(position), true);
 
-                            message.ShowDialog(this);
+                            Invoke((MethodInvoker)(() =>
+                            {
+                                message.ShowDialog(this);
+                            }));
 
                             message.Dispose();
 
@@ -1408,7 +1411,10 @@ namespace GeneralReversiGui
                     {
                         Form2 message = new Form2("Message", true, PassText(), true);
 
-                        message.ShowDialog(this);
+                        Invoke((MethodInvoker)(() =>
+                        {
+                            message.ShowDialog(this);
+                        }));
 
                         message.Dispose();
                     }
