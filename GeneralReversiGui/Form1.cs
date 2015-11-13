@@ -1669,7 +1669,7 @@ namespace GeneralReversiGui
 
             start_CheckBox.Checked = false;
 
-            while (thread.ThreadState != System.Threading.ThreadState.WaitSleepJoin && thread.ThreadState != System.Threading.ThreadState.Stopped)
+            while (thread != null && thread.ThreadState != System.Threading.ThreadState.WaitSleepJoin && thread.ThreadState != System.Threading.ThreadState.Stopped)
             {
                 Thread.Sleep(100);
             }
