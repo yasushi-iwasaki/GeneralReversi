@@ -18,6 +18,10 @@ namespace GeneralReversiGui
                 textBox_TextBox.Select(0, 0);
                 ok_Button.Select();
             }
+            else
+            {
+                textBox_TextBox.ScrollBars = ScrollBars.Vertical;
+            }
         }
 
         public TextBox textBox_TextBox;
