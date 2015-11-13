@@ -1261,11 +1261,13 @@ namespace GeneralReversiGui
             if (thread != null)
             {
                 thread.Abort();
+                thread = null;
             }
 
             if (thread2 != null)
             {
                 thread2.Abort();
+                thread2 = null;
             }
 
             size = int.Parse(size_ComboBox.Text);
