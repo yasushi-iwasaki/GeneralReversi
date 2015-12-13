@@ -1145,6 +1145,7 @@ namespace GeneralReversi
 
         public static int Stable(Board board, State turn)
         {
+            const int scorePerfect = int.MaxValue - 1;
             const int scoreCorner = 1000000;
             const int scoreEdge = 1000;
             const int scoreDiagonal = 1000;
@@ -1155,12 +1156,12 @@ namespace GeneralReversi
 
             if (board.countBlack == 0)
             {
-                return -int.MaxValue;
+                return -scorePerfect;
             }
 
             if (board.countWhite == 0)
             {
-                return int.MaxValue;
+                return scorePerfect;
             }
 
             foreach (Position corner in Board.corners)
