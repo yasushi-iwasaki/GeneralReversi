@@ -1174,7 +1174,7 @@ namespace GeneralReversi
                 {
                     Position p;
 
-                    foreach (Position direction in directions)
+                    foreach (Vector direction in directions)
                     {
                         p = corner + direction;
 
@@ -1195,7 +1195,7 @@ namespace GeneralReversi
 
                 ret += stateCorner.Sign() * scoreCorner;
 
-                foreach (Position direction in directions)
+                foreach (Vector direction in directions)
                 {
                     for (Position p = corner + direction; board.array[p] == stateCorner; p += direction)
                     {
