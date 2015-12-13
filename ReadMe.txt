@@ -1,15 +1,15 @@
 ●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○
 ○　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　●
-●　 　　　　      　　　　　GeneralReversi 1.2.1.0 　　　　      　　　　　　○
+●　 　　　　      　　　　　GeneralReversi 1.2.2.0 　　　　      　　　　　　○
 ○　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　●
 ●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○●○
 
 【 ソフト名称 】GeneralReversi
 【 ソフト作者 】Yasushi Iwasaki
 【 ソフト種別 】FLOSS (Free/Libre and Open Source Software)
-【 バージョン 】1.2.1.0
-【 リリース日 】2015/11/15
-【  開発環境  】Visual Studio 2015
+【 バージョン 】1.2.2.0
+【 リリース日 】2015/12/13
+【  開発環境  】Visual Studio 2015 Update 1
 【  開発言語  】C#
 【  動作環境  】Windows, Linux, Mac
 【   ウェブ   】http://generalreversi.web.fc2.com/
@@ -811,3 +811,13 @@
 
 		○Mono環境において一般ユーザー権限だとパスメッセージの出現で落ちるバグを修正した。
 		　これによって、root権限で起動する必要がなくなった。
+
+	●2015/11/19	窓の杜のダイジェストニュースで紹介された。
+	　http://www.forest.impress.co.jp/docs/digest/20151119_731511.html
+
+	●2015/12/13	1.2.2.0
+
+		○開発環境を「Visual Studio 2015」から「Visual Studio 2015 Update 1」に移行した。
+		　また、これに伴い、対象のフレームワークを.NET Framework 4.6から.NET Framework 4.6.1にした。 
+
+		○Stableが評価関数の値域外を返すことにより探索が失敗するバグを修正した。
